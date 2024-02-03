@@ -16,11 +16,13 @@ const Header = () => {
         <Navegacion />
       </div>
 
-      <div className="mb-4">
+      <div className="mb-4 md:self-end md:mr-16">
         <h2 className="text-white md:text-3xl pb-1 text-2xl">
           Tu Casa En EL Bosque
         </h2>
-        <p className="text-white ">Contruimos La Casa De Tu Sueños</p>
+        <p className="text-white md:text-[18px] text-[14px]">
+          Contruimos La Casa De Tu Sueños
+        </p>
       </div>
     </header>
   );

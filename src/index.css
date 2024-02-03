@@ -36,6 +36,12 @@ a {
   color: white;
   font-size: 1rem;
   font-weight: lighter;
+  padding: 0 10px;
+}
+
+a:hover {
+  background-color: rgba(177, 176, 176, 0.5);
+  color: black;
 }
 
 img {
@@ -49,4 +55,22 @@ img {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.cel::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: block;
+  background-image: url(../src/assets/img/telefono.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .cel::before {
+    width: 20px;
+    height: 20px;
+  }
 }
