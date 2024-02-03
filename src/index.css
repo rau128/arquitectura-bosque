@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-size: 1.6rem;
+  font-size: 62.5%;
+  line-height: 1.8;
+}
+h1,
+h2,
+h3 {
+  font-weight: 900;
+  /* margin: 1rem 0 4rem 0; */
+}
+/* h1 {
+  font-size: 4.8rem;
+}
+h2 {
+  font-size: 5.8rem;
+}
+
+h3 {
+  font-size: 5rem;
+} */
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.fondo {
+  background-image: url("./assets/hero.jpg");
+  min-height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
