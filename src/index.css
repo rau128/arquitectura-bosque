@@ -74,3 +74,11 @@ img {
     height: 20px;
   }
 }
+
+.sobre_nosotros {
+  background-image: url(../src/assets/img/nosotros.jpg);
+  background-repeat: no-repeat;
+
+  background-position: bottom center;
+  min-height: 350px;
+}

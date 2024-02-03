@@ -4,7 +4,7 @@ import imagen from "../assets/hero.jpg";
 const Header = () => {
   return (
     <header
-      className={`flex flex-col items-center md:items-stretch md:justify-between md:container md:mx-auto fondo md:px-[50px] xl:px-[150px] pt-4 `}
+      className={`flex flex-col items-center md:items-stretch md:justify-between  fondo md:px-[50px] xl:px-[150px] pt-4 `}
     >
       <div className="flex flex-col md:flex-row  justify-between items-center">
         <div className="logo ">
